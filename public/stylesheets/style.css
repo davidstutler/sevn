@@ -2,11 +2,13 @@
 /* CSS Document */
 
 body {
-	background-color:#323232;
+	background-color:#0D0D0D;
 	font-family:Helvetica,Arial;
 	color:#fff;
 	font-size:.9em;
 	line-height:1.6em;
+	background-image: url(../images/body_background.jpg);
+	background-repeat: repeat-x;
 }
 
 #logo {
