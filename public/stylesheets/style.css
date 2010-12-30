@@ -5,4 +5,27 @@ body {
 	background-color:#323232;
 	font-family:Helvetica,Arial;
 	color:#fff;
+	font-size:.9em;
+	line-height:1.6em;
+}
+
+#logo {
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	width:142px;
+	height:100px;
+	margin-top: 30px;	
+}
+#wrap {
+	width: 650px;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+strong {
+	color:#B5FDF7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:500;
 }
