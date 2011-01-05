@@ -12,4 +12,8 @@ class PagesController < ApplicationController
     @title = "About Us"
   end
   
+  def plans
+    @title = "Plans and Pricing"
+  end
+  
 end
