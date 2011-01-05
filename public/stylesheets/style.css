@@ -34,5 +34,5 @@ h1, h2, h3, h4, h5, h6 {
 }
 #navigation { float: right;}
 #navigation ul { list-style: none;}
-#navigation ul li a {color:#fff; padding-right:15px;}
+#navigation ul li a {color:#fff; padding-right:15px; text-decoration: none; font-weight: bold; font-size:.9em; color:#B5FDF7;}
 #navigation ul li {display: inline;}
