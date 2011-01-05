@@ -12,12 +12,8 @@ body {
 }
 
 #logo {
-	background-image: url(../images/logo.png);
-	background-repeat: no-repeat;
-	width:142px;
-	height:100px;
 	margin-top: 30px;
-	float: left;	
+	float: left;*/	
 }
 #wrap {
 	width: 650px;
