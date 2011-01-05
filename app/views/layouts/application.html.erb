@@ -1,28 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Sevn - A simple todo list for the next seven days | <%= @title %></title>
-<!--[if lt IE9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
-  <%= csrf_meta_tag %>
-<!--[if lt IE 8]>
-<%= stylesheet_link_tag 'blueprint/ie' %>
-<![endif]-->
-<%= stylesheet_link_tag 'customer', :media => 'screen' %>
+<title>Sevn - A simple todo list for the next seven days | <%= @title %></title>
+<%= render 'layouts/stylesheets' %>
 </head>
 <body>
-<!-- wrapping div -->
-<div id="wrap">
-<div id="logo">
 
-</div>
+
+<div id="wrap">
+
+<%= render 'layouts/header'%>
  
 <%= yield %>
 
-<p><small><%= link_to "Home", '#' %> | Copyright 2011 | Wide Eyed Media</small></p>
+<%= render 'layouts/footer'%>
+
 </div>
 
 </body>
